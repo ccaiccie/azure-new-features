@@ -1,0 +1,10 @@
+resource_group_name              = "rg-routeserver-dualstack-lab"
+location                         = "westcentralus"
+name_prefix                      = "rsdual"
+ipv4_address_space               = "10.0.0.0/16"
+ipv6_address_space               = "fd00:0:100::/48"
+route_server_ipv4_prefix         = "10.0.1.0/26"
+route_server_ipv6_prefix         = "fd00:0:100:1::/64"
+nva_ipv4_prefix                  = "10.0.0.0/24"
+nva_ipv6_prefix                  = "fd00:0:100:2::/64"
+branch_to_branch_traffic_enabled = false

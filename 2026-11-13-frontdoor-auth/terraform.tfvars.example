@@ -1,0 +1,4 @@
+resource_group_name = "rg-frontdoor-auth-lab"
+location            = "eastus"
+name_prefix         = "fdauthlab"
+origin_host_name    = "www.example.com"

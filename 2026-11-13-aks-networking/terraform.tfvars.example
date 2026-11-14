@@ -1,0 +1,9 @@
+resource_group_name = "rg-aks-networking-lab"
+location            = "eastus"
+name_prefix         = "aksnetlab"
+create_cluster      = true
+vm_size             = "Standard_D2s_v3"
+vnet_cidr           = "10.50.0.0/16"
+subnet_cidr         = "10.50.0.0/22"
+service_cidr        = "10.51.0.0/16"
+dns_service_ip      = "10.51.0.10"

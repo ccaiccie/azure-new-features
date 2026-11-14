@@ -1,0 +1,7 @@
+resource_group_name   = "rg-private-link-lab"
+location              = "eastus"
+name_prefix           = "pllab"
+vnet_cidr             = "10.60.0.0/16"
+endpoint_subnet_cidr  = "10.60.1.0/24"
+service_subnet_cidr   = "10.60.2.0/24"
+ip_version_type       = "IPv4"
