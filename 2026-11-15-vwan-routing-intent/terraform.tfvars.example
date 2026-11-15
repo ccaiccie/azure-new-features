@@ -1,0 +1,6 @@
+resource_group_name = "rg-vwan-intent-lab"
+location            = "eastus"
+name_prefix         = "vwanlab"
+hub_address_prefix  = "10.80.0.0/24"
+spoke_cidr          = "10.81.0.0/16"
+spoke_subnet_cidr   = "10.81.1.0/24"
