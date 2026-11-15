@@ -1,6 +1,6 @@
 # Application Gateway path-based routing (advanced routing lesson)
 
-Terraform practice lab for this video: https://youtu.be/OYnmmPclLog
+Terraform practice lab for this video: https://youtu.be/QrIyTEzbyN8
 
 ## Goals
 

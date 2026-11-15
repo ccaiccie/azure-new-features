@@ -1,6 +1,6 @@
 # Azure Private Link: private endpoint, DNS, and Private Link Service
 
-Terraform practice lab for this video: https://youtu.be/lCTwyGjignE
+Terraform practice lab for this video: https://youtu.be/6RWmwXdIuGI
 
 ## Goals
 
