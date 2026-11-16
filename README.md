@@ -14,3 +14,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-14-appgw-advanced-routing](./2026-11-14-appgw-advanced-routing) | Application Gateway advanced routing rules and load balancing (preview) | [YouTube](https://youtu.be/QrIyTEzbyN8) |
 | [2026-11-14-private-link](./2026-11-14-private-link) | Azure Private Link, private endpoints, and DNS | [YouTube](https://youtu.be/6RWmwXdIuGI) |
 | [2026-11-15-vwan-routing-intent](./2026-11-15-vwan-routing-intent) | Virtual WAN routing intent: inspect private and internet traffic | |
+| [2026-11-16-avnm-security-admin-rules](./2026-11-16-avnm-security-admin-rules) | Azure Virtual Network Manager security admin rules | Upload pending |
