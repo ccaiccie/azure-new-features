@@ -15,3 +15,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-14-private-link](./2026-11-14-private-link) | Azure Private Link, private endpoints, and DNS | [YouTube](https://youtu.be/6RWmwXdIuGI) |
 | [2026-11-15-vwan-routing-intent](./2026-11-15-vwan-routing-intent) | Virtual WAN routing intent: inspect private and internet traffic | |
 | [2026-11-16-avnm-security-admin-rules](./2026-11-16-avnm-security-admin-rules) | Azure Virtual Network Manager security admin rules | Upload pending |
+| [2026-11-16-arm-mcp-server](./2026-11-16-arm-mcp-server) | ARM MCP at Ignite 2026: query, plan, act and verify an NSG change | Upload pending |

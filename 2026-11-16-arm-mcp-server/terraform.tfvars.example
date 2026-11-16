@@ -1,0 +1,4 @@
+resource_group_name = "rg-arm-mcp-lab"
+location            = "eastus"
+name_prefix         = "armmcp"
+management_prefix   = "192.0.2.0/24"
