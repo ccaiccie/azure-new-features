@@ -16,3 +16,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-15-vwan-routing-intent](./2026-11-15-vwan-routing-intent) | Virtual WAN routing intent: inspect private and internet traffic | |
 | [2026-11-16-avnm-security-admin-rules](./2026-11-16-avnm-security-admin-rules) | Azure Virtual Network Manager security admin rules | Upload pending |
 | [2026-11-16-arm-mcp-server](./2026-11-16-arm-mcp-server) | ARM MCP at Ignite 2026: query, plan, act and verify an NSG change | Upload pending |
+| [2026-11-17-vnet-encryption](./2026-11-17-vnet-encryption) | Azure Virtual Network encryption: DTLS between VMs, limits and proof | Upload pending |

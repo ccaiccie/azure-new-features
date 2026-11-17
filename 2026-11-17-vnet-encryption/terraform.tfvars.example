@@ -1,0 +1,11 @@
+subscription_id                = "00000000-0000-0000-0000-000000000000"
+location                       = "eastus2"
+resource_group_name            = "rg-vnetenc-lab"
+name_prefix                    = "vnetenc"
+enforcement                    = "AllowUnencrypted"
+create_vms                     = true
+vm_size                        = "Standard_D2s_v5"
+admin_username                 = "azureuser"
+admin_ssh_public_key           = "ssh-ed25519 AAAA... you@example"
+network_watcher_name           = "NetworkWatcher_eastus2"
+network_watcher_resource_group = "NetworkWatcherRG"
