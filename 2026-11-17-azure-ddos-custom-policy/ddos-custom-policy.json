@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "policyName": {
+      "type": "string",
+      "metadata": {
+        "description": "The name of the DDoS custom policy."
+      }
+    },
+    "location": {
+      "type": "string",
+      "metadata": {
+        "description": "The region for the custom policy."
+      }
+    },
+    "frontendIPConfigurationId": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource ID of the Standard Load Balancer frontend IP configuration to associate."
+      }
+    },
+    "synThreshold": {
+      "type": "int",
+      "defaultValue": 20000,
+      "minValue": 1000,
+      "maxValue": 100000,
+      "metadata": {
+        "description": "Inbound TCP SYN detection threshold in packets per second (1,000 to 100,000). Example value only."
+      }
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Network/ddosCustomPolicies",
+      "apiVersion": "2026-03-01",
+      "name": "[parameters('policyName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "detectionRules": [
+          {
+            "name": "tcp-syn-threshold",
+            "properties": {
+              "detectionMode": "TrafficThreshold",
+              "trafficDetectionRule": {
+                "packetsPerSecond": "[parameters('synThreshold')]",
+                "trafficType": "TcpSyn"
+              }
+            }
+          }
+        ],
+        "frontEndIpConfiguration": [
+          {
+            "id": "[parameters('frontendIPConfigurationId')]"
+          }
+        ]
+      }
+    }
+  ],
+  "outputs": {
+    "policyId": {
+      "type": "string",
+      "value": "[resourceId('Microsoft.Network/ddosCustomPolicies', parameters('policyName'))]"
+    }
+  }
+}

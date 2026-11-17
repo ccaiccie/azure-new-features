@@ -1,0 +1,5 @@
+location            = "eastus"
+resource_group_name = "rg-ddos-custom-policy-lab"
+name_prefix         = "ddoslab"
+# Example only. Valid TCP SYN range is 1000-100000 packets per second.
+tcp_syn_threshold_pps = 20000
