@@ -1,0 +1,11 @@
+subscription_id              = "00000000-0000-0000-0000-000000000000"
+location                     = "eastus2"
+resource_group_name          = "rg-avp-lab"
+name_prefix                  = "avp"
+allowed_source_cidr          = "203.0.113.10/32"
+vm_size                      = "Standard_D2s_v5"
+vmss_instances               = 2
+admin_username               = "azureuser"
+admin_ssh_public_key         = "ssh-ed25519 AAAA... you@example"
+temporary_mitigation_enabled = false
+mitigation_port              = 8080
