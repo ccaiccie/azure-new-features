@@ -1,0 +1,8 @@
+subscription_id          = "00000000-0000-0000-0000-000000000000"
+location                 = "eastus2"
+resource_group_name      = "rg-nsp-lab"
+name_prefix              = "nsplab"
+allowed_inbound_prefixes = ["203.0.113.10/32"] # your public egress IP
+allowed_outbound_fqdns   = ["api.contoso.example"]
+storage_access_mode      = "Learning" # Transition mode
+key_vault_access_mode    = "Enforced"
