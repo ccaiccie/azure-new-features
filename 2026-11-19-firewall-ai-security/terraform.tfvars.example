@@ -1,0 +1,7 @@
+subscription_id           = "00000000-0000-0000-0000-000000000000"
+location                  = "westcentralus"
+name_prefix               = "fwaisec"
+resource_group_name       = "rg-fwaisec-lab"
+intermediate_ca_pfx_path  = "./interCA.pfx"
+# inspected_destination_fqdns = ["*.openai.azure.com", "www.microsoft.com"]
+# idps_mode                 = "Alert"
