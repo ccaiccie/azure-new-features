@@ -1,0 +1,9 @@
+subscription_id     = "00000000-0000-0000-0000-000000000000"
+location            = "eastus2"
+resource_group_name = "rg-dnspolicy-lab"
+name_prefix         = "dnspol"
+blocked_domains     = ["example.org.", "badsite.example.net."] # trailing dot; subdomains included
+allowed_domains     = ["www.example.org."]                     # higher-priority exception
+watched_domains     = ["example.com."]                         # resolved, but logged as Alert
+threat_intel_action = "Alert"                                  # change to "Block" after reviewing logs
+vm_size             = "Standard_B1s"
