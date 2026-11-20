@@ -1,0 +1,12 @@
+subscription_id     = "00000000-0000-0000-0000-000000000000"
+resource_group_name = "rg-ddos-peacetime-lab"
+location            = "eastus"
+
+# Optional. Leave empty if you do not want email notifications from the action group.
+alert_email = ""
+
+# PLACEHOLDERS only. After apply, watch peacetime metrics on the public IP and
+# replace these packets-per-second values with numbers from your own baseline.
+# tcp_packets_alert_threshold_pps      = 50000
+# syn_packets_alert_threshold_pps      = 5000
+# inbound_packets_alert_threshold_pps  = 50000
