@@ -1,0 +1,7 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+# location            = "eastus2"
+# firewall_sku_tier   = "Standard"   # or "Premium"
+# proxy_http_port     = 8080
+# pac_file_port       = 8090
+# allowed_fqdns       = ["www.microsoft.com", "learn.microsoft.com"]
+# create_test_vm      = true

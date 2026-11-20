@@ -21,3 +21,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-18-adaptive-virtual-patching](./2026-11-18-adaptive-virtual-patching) | Azure Adaptive Virtual Patching: an AI shield between disclosure and the patch | [YouTube](https://youtu.be/zEF1BSAZZik) |
 | [2026-11-19-dns-security-policy](./2026-11-19-dns-security-policy) | Azure DNS security policy: block, allow and alert on DNS at the VNet | Upload pending |
 | [2026-11-19-firewall-ai-security](./2026-11-19-firewall-ai-security) | AI Security add-on for Azure Firewall Premium (public preview) | Upload pending |
+| [2026-11-20-firewall-explicit-proxy](./2026-11-20-firewall-explicit-proxy) | Azure Firewall explicit proxy: send web traffic to the firewall as a proxy (manual setting or PAC file) | Upload pending |
