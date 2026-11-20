@@ -1,0 +1,6 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+# Required: 3-8 lowercase letters or numbers so the storage account name is unique.
+unique_suffix = "lab01a"
+# location      = "centralus"
+# name_prefix   = "agntai"
+# resource_group_name = "rg-agentic-ai-infra-lab"
