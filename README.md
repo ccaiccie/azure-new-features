@@ -24,4 +24,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-20-firewall-explicit-proxy](./2026-11-20-firewall-explicit-proxy) | Azure Firewall explicit proxy: send web traffic to the firewall as a proxy (manual setting or PAC file) | Upload pending |
 | [2026-11-20-ddos-peacetime-telemetry](./2026-11-20-ddos-peacetime-telemetry) | Azure DDoS Protection peacetime telemetry (public preview) | Upload pending |
 | [2026-11-20-azure-infrastructure-agentic-ai](./2026-11-20-azure-infrastructure-agentic-ai) | Azure infrastructure for agentic AI (preview) | [YouTube](https://youtu.be/OS1n6_3WBwM) |
-| [2026-11-21-appgw-confidential-compute](./2026-11-21-appgw-confidential-compute) | Application Gateway Confidential Compute (public preview) | Upload pending |
+| [2026-11-21-appgw-confidential-compute](./2026-11-21-appgw-confidential-compute) | Application Gateway Confidential Compute (public preview) | [YouTube](https://youtu.be/oQwGvefUe2g) |
