@@ -1,0 +1,5 @@
+resource_group_name = "rg-afc-lab"
+# Must be a preview region from the official article:
+# centraluseuap, eastus2euap, westcentralus, eastasia, uksouth, centralus
+location    = "centralus"
+name_prefix = "afc"
