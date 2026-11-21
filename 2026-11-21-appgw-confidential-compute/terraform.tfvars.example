@@ -1,0 +1,4 @@
+resource_group_name = "rg-appgw-cc-lab"
+location            = "eastus"
+name_prefix         = "appgwcc"
+backend_fqdn        = "www.example.com"
