@@ -25,5 +25,5 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-20-ddos-peacetime-telemetry](./2026-11-20-ddos-peacetime-telemetry) | Azure DDoS Protection peacetime telemetry (public preview) | Upload pending |
 | [2026-11-20-azure-infrastructure-agentic-ai](./2026-11-20-azure-infrastructure-agentic-ai) | Azure infrastructure for agentic AI (preview) | [YouTube](https://youtu.be/OS1n6_3WBwM) |
 | [2026-11-21-appgw-confidential-compute](./2026-11-21-appgw-confidential-compute) | Application Gateway Confidential Compute (public preview) | [YouTube](https://youtu.be/oQwGvefUe2g) |
-| [2026-11-21-azure-firewall-containers](./2026-11-21-azure-firewall-containers) | Azure Firewall for Containers (public preview) | Upload pending |
-| [2026-11-21-azure-ddos-network-protection](./2026-11-21-azure-ddos-network-protection) | Azure DDoS Network Protection: architecture, telemetry, and defense-in-depth | Upload pending |
+| [2026-11-21-azure-firewall-containers](./2026-11-21-azure-firewall-containers) | Azure Firewall for Containers (public preview) | [YouTube](https://youtu.be/rUCq5KKzuPc) |
+| [2026-11-21-azure-ddos-network-protection](./2026-11-21-azure-ddos-network-protection) | Azure DDoS Network Protection: architecture, telemetry, and defense-in-depth | [YouTube](https://youtu.be/KsGoardBEZE) |
