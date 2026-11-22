@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (do not commit secrets) or pass sensitive values via TF_VAR_*
+location              = "eastus2"
+prefix                = "la-msmq-lab"
+msmq_broker_port      = 5050
+broker_vm_size        = "Standard_D2s_v3"
+broker_admin_username = "msmqadmin"
+# broker_admin_password = "ReplaceWithStrongPassword!"
+enable_bastion        = false
