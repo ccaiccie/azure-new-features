@@ -31,3 +31,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-25-azfw-wildcard-fqdn-network-rules](./2026-11-25-azfw-wildcard-fqdn-network-rules) | Azure Firewall Wildcard FQDNs in Network Rules (GA) | [YouTube](https://youtu.be/cBGbX2D_4cE) |
 | [2026-11-25-ai-foundry-agent-egress](./2026-11-25-ai-foundry-agent-egress) | Microsoft Foundry Agent Service egress: managed VNet, private endpoints, and firewall FQDN control | Upload pending |
 | [2026-11-25-vnet-flow-logs-traffic-analytics](./2026-11-25-vnet-flow-logs-traffic-analytics) | Azure Virtual Network flow logs and Traffic Analytics: migrate off retiring NSG flow logs | Upload pending |
+| [2026-11-26-entra-private-access-gsa](./2026-11-26-entra-private-access-gsa) | Microsoft Entra Private Access deep dive (Global Secure Access): connector, Quick Access, Conditional Access | Upload pending |
