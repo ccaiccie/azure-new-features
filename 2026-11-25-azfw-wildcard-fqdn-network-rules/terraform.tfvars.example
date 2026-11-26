@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and fill in your values.
+location                     = "uksouth"
+firewall_sku                 = "Standard"
+log_analytics_workspace_name = "law-azfw-wildcard-replace-me"
+wildcard_ntp_fqdn            = "*.pool.ntp.org"
+wildcard_app_fqdn            = "*.contoso.com"
+ssh_public_key               = "ssh-ed25519 AAAA... your-key-here"

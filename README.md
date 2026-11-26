@@ -28,3 +28,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-21-azure-firewall-containers](./2026-11-21-azure-firewall-containers) | Azure Firewall for Containers (public preview) | [YouTube](https://youtu.be/rUCq5KKzuPc) |
 | [2026-11-21-azure-ddos-network-protection](./2026-11-21-azure-ddos-network-protection) | Azure DDoS Network Protection: architecture, telemetry, and defense-in-depth | [YouTube](https://youtu.be/KsGoardBEZE) |
 | [2026-11-22-logic-apps-msmq-sql-hybrid](./2026-11-22-logic-apps-msmq-sql-hybrid) | Azure Logic Apps: MSMQ built-in connector (public preview) and SQL as a storage provider for Hybrid Logic Apps (GA) | [YouTube](https://youtu.be/0eta7gikCj4) |
+| [2026-11-25-azfw-wildcard-fqdn-network-rules](./2026-11-25-azfw-wildcard-fqdn-network-rules) | Azure Firewall Wildcard FQDNs in Network Rules (GA) | Upload pending |
