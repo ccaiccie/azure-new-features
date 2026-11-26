@@ -29,3 +29,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-21-azure-ddos-network-protection](./2026-11-21-azure-ddos-network-protection) | Azure DDoS Network Protection: architecture, telemetry, and defense-in-depth | [YouTube](https://youtu.be/KsGoardBEZE) |
 | [2026-11-22-logic-apps-msmq-sql-hybrid](./2026-11-22-logic-apps-msmq-sql-hybrid) | Azure Logic Apps: MSMQ built-in connector (public preview) and SQL as a storage provider for Hybrid Logic Apps (GA) | [YouTube](https://youtu.be/0eta7gikCj4) |
 | [2026-11-25-azfw-wildcard-fqdn-network-rules](./2026-11-25-azfw-wildcard-fqdn-network-rules) | Azure Firewall Wildcard FQDNs in Network Rules (GA) | [YouTube](https://youtu.be/cBGbX2D_4cE) |
+| [2026-11-25-ai-foundry-agent-egress](./2026-11-25-ai-foundry-agent-egress) | Microsoft Foundry Agent Service egress: managed VNet, private endpoints, and firewall FQDN control | Upload pending |

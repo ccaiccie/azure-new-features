@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# Never commit terraform.tfvars or state files.
+
+subscription_id          = "00000000-0000-0000-0000-000000000000"
+location                 = "eastus2"
+prefix                   = "fndrylab01"
+isolation_mode           = "AllowOnlyApprovedOutbound"
+firewall_sku             = "Basic"
+enable_example_fqdn_rule = false
