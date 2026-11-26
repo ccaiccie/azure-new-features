@@ -1,0 +1,17 @@
+# Copy to terraform.tfvars and supply your own SSH public key.
+# Never commit real subscription IDs, credentials, or private keys.
+
+location                   = "westus2"
+resource_group_name_prefix = "rg-avnm-conn-lab"
+
+# Step 1 (BEFORE): deploy_connectivity = false (spokes cannot reach each other)
+# Step 2 (AFTER - Mesh): topology_mode = "mesh", deploy_connectivity = true
+# Step 3 (AFTER - Hub-and-Spoke): topology_mode = "hub_and_spoke", enable_direct_connectivity = false (or true), deploy_connectivity = true
+topology_mode              = "mesh"
+enable_direct_connectivity = true
+deploy_connectivity        = false
+
+deploy_test_vms = true
+vm_size         = "Standard_B1s"
+admin_username  = "azureuser"
+ssh_public_key  = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIReplaceWithYourPublicKey mike@lab"
