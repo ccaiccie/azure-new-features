@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and supply your own values.
+# Never commit terraform.tfvars or state files to source control.
+
+subscription_id     = "00000000-0000-0000-0000-000000000000"
+location            = "eastus"
+resource_group_name = "rg-udr-ecmp-lab"
+admin_username      = "azureuser"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+vm_size             = "Standard_B2s"
+nva_count           = 2
