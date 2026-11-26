@@ -33,3 +33,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-25-vnet-flow-logs-traffic-analytics](./2026-11-25-vnet-flow-logs-traffic-analytics) | Azure Virtual Network flow logs and Traffic Analytics: migrate off retiring NSG flow logs | Upload pending |
 | [2026-11-26-entra-private-access-gsa](./2026-11-26-entra-private-access-gsa) | Microsoft Entra Private Access deep dive (Global Secure Access): connector, Quick Access, Conditional Access | Upload pending |
 | [2026-11-26-azfw-premium-idps-threat-intel](./2026-11-26-azfw-premium-idps-threat-intel) | Azure Firewall Premium IDPS and threat intelligence-based filtering | Upload pending |
+| [2026-11-26-front-door-waf-private-link](./2026-11-26-front-door-waf-private-link) | Azure Front Door WAF with Private Link origins | Upload pending |

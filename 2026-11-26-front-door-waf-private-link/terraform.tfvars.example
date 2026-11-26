@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and adjust values for your own subscription.
+# Do NOT commit terraform.tfvars or any subscription IDs or secrets.
+
+resource_group_name       = "rg-afd-waf-pl-lab"
+location                  = "eastus"
+project_prefix            = "afdpllab"
+waf_mode                  = "Detection" # Change to "Prevention" after inspecting Detection logs
+app_service_sku           = "P0v3"
+blocked_test_header_value = "block-me-lab"
+log_retention_days        = 30
