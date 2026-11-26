@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and set your Azure subscription ID.
+# terraform.tfvars is excluded by .gitignore.
+
+subscription_id   = "00000000-0000-0000-0000-000000000000"
+location          = "eastus2"
+prefix            = "azfwidps"
+idps_mode         = "Alert"   # Start in Alert, tune logs, then switch to "Deny"
+threat_intel_mode = "Alert"   # Default Alert; switch to "Deny" for Alert and Deny
