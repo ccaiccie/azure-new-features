@@ -36,3 +36,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-26-front-door-waf-private-link](./2026-11-26-front-door-waf-private-link) | Azure Front Door WAF with Private Link origins | Upload pending |
 | [2026-11-26-avnm-connectivity-hub-spoke-mesh](./2026-11-26-avnm-connectivity-hub-spoke-mesh) | Azure Virtual Network Manager connectivity: hub-and-spoke and mesh | Upload pending |
 | [2026-11-26-azure-udr-ecmp-next-hops](./2026-11-26-azure-udr-ecmp-next-hops) | Azure ECMP next hops for VNet user-defined routes (public preview) | Upload pending |
+| [2026-11-26-azure-ddos-ip-vs-network-protection](./2026-11-26-azure-ddos-ip-vs-network-protection) | Azure DDoS IP Protection versus DDoS Network Protection | Upload pending |

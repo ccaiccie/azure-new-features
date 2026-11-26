@@ -1,0 +1,18 @@
+# Copy this file to terraform.tfvars and adjust values for your own subscription.
+# Do NOT commit terraform.tfvars with sensitive values or subscription secrets.
+
+resource_group_name = "rg-ddos-sku-lab"
+location            = "eastus"
+public_ip_name      = "pip-ddos-ip-lab"
+
+# Default runnable path: enables Azure DDoS IP Protection on one Standard public IP.
+# COST WARNING: Enabling IP Protection bills per protected public IP while active.
+enable_ip_protection = true
+
+# Optional Network Protection path: kept false by default to avoid unexpected plan charges.
+# COST WARNING: Setting this to true creates a DDoS Network Protection plan that bills
+# until the plan resource is deleted (disabling on a VNet alone does NOT stop billing).
+enable_network_protection = false
+
+# Optional: send public IP DDoS logs and metrics to a Log Analytics workspace.
+enable_diagnostic_logging = false
