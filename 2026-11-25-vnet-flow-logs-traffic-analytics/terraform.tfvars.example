@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and fill in your values.
+# Never commit terraform.tfvars or state files.
+
+subscription_id                    = "00000000-0000-0000-0000-000000000000"
+location                           = "eastus2"
+prefix                             = "flwlab01"
+network_watcher_resource_group     = "NetworkWatcherRG"
+retention_days                     = 7
+traffic_analytics_interval_minutes = 10
