@@ -1,0 +1,40 @@
+# Official path, header, query string, and method routing example (Gateway API HTTPRoute)
+# - /bar -> backend-v2:8080
+# - GET /some/thing?great=example with header magic: foo -> backend-v2:8080
+# - Everything else -> backend-v1:8080
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: http-route
+  namespace: test-infra
+spec:
+  parentRefs:
+  - name: gateway-01
+    namespace: test-infra
+  rules:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /bar
+    backendRefs:
+    - name: backend-v2
+      port: 8080
+  - matches:
+    - headers:
+      - type: Exact
+        name: magic
+        value: foo
+      queryParams:
+      - type: Exact
+        name: great
+        value: example
+      path:
+        type: PathPrefix
+        value: /some/thing
+      method: GET
+    backendRefs:
+    - name: backend-v2
+      port: 8080
+  - backendRefs:
+    - name: backend-v1
+      port: 8080

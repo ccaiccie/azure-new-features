@@ -1,0 +1,15 @@
+location                 = "eastus2"
+resource_group_name      = "rg-agfc-lab-disposable"
+prefix                   = "agfclab"
+vnet_address_space       = "10.20.0.0/16"
+aks_subnet_prefix        = "10.20.1.0/24"
+alb_subnet_prefix        = "10.20.2.0/24"
+aks_node_count           = 2
+aks_node_vm_size         = "Standard_D2s_v3"
+alb_controller_namespace = "azure-alb-system"
+
+tags = {
+  environment = "lab"
+  workload    = "agfc-demo"
+  managed_by  = "terraform"
+}
