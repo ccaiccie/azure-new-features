@@ -1,0 +1,25 @@
+# Copy this file to terraform.tfvars and set a strong pre-shared key.
+# Do NOT commit terraform.tfvars to version control.
+
+resource_group_name    = "rg-vpn-nat-ipsec-lab"
+location               = "eastus"
+vpn_gateway_sku        = "VpnGw2"
+vpn_gateway_generation = "Generation2"
+
+# Overlapping CIDRs (matching Microsoft Learn official NAT topology)
+vnet_cidr               = "10.0.1.0/24"
+workload_subnet_cidr    = "10.0.1.0/26"
+gateway_subnet_cidr     = "10.0.1.224/27"
+vnet_translated_cidr    = "192.168.1.0/24"
+
+# Simulated on-premises peers (replace with real device or disposable gateway IPs if testing live traffic)
+branch1_peer_ip         = "198.51.100.10"
+branch1_cidr            = "10.0.1.0/24"
+branch1_translated_cidr = "192.168.2.0/24"
+
+branch2_peer_ip         = "203.0.113.10"
+branch2_cidr            = "10.0.1.0/24"
+branch2_translated_cidr = "192.168.3.0/24"
+
+# Replace with your own strong pre-shared key before running terraform apply
+vpn_shared_key = "REPLACE-WITH-STRONG-LAB-PSK"
