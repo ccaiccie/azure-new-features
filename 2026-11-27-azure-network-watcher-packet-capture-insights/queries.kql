@@ -1,0 +1,27 @@
+// 1. Recent network sessions
+NWPacketCaptureNetworkSession
+| project EventTs, FlowId, SourceIp, SourcePort, DestinationIp, DestinationPort, TransportProtocol, DurationMs, DetectedProtocols, TcpSessionState, TcpResetObserved
+| order by EventTs desc
+| take 20
+
+// 2. DNS failures and slow lookups
+NWPacketCaptureDnsQuery
+| where ResponseSeen == false or ResponseCode != "NOERROR" or ResponseTimeMs > 50
+| project EventTs, FlowId, QuerySourceIp, QueryDestinationIp, QueryName, QueryType, ResponseSeen, ResponseCode, ResponseTimeMs, Answers
+| order by EventTs desc
+
+// 3. TLS SNI, negotiated version, cipher suite, alerts, and cert hostname match
+NWPacketCaptureTlsSession
+| project EventTs, FlowId, SourceIp, DestinationIp, DestinationPort, RequestedServerName, TlsVersion, CipherSuite, HandshakeEstablished, LastAlert, RequestedServerNameMatchesCertificate
+| order by EventTs desc
+
+// 4. HTTP transactions correlated with NetworkSession DurationMs via FlowId
+NWPacketCaptureHttpTransaction
+| where RequestSeen == true
+| join kind=inner (
+    NWPacketCaptureNetworkSession
+    | project PacketCaptureResourceId, FlowId, DurationMs, TcpSessionState, TcpResetObserved
+) on PacketCaptureResourceId, FlowId
+| project EventTs, FlowId, Method, RequestHost, RequestTarget, StatusCode, StatusReason, DurationMs, TcpSessionState, TcpResetObserved
+| order by DurationMs desc
+| take 20

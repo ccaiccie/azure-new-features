@@ -40,3 +40,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-26-azure-apim-networking](./2026-11-26-azure-apim-networking) | Azure API Management networking: VNet injection, Application Gateway, and Private Link | Upload pending |
 | [2026-11-26-azure-app-gateway-for-containers](./2026-11-26-azure-app-gateway-for-containers) | Azure Application Gateway for Containers: ALB Controller, Gateway API, and HTTPRoute | Upload pending |
 | [2026-11-26-azure-vpn-gateway-nat-ipsec](./2026-11-26-azure-vpn-gateway-nat-ipsec) | Azure VPN Gateway NAT and custom IPsec/IKE policy for overlapping CIDRs | Upload pending |
+| [2026-11-27-azure-network-watcher-packet-capture-insights](./2026-11-27-azure-network-watcher-packet-capture-insights) | Azure Network Watcher packet capture insights (preview): NWPacketCapture KQL tables, toolkit placement, and Terraform lab | Upload pending |

@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# Never commit terraform.tfvars with real keys or IPs.
+
+location                   = "westus2"
+resource_group_name        = "rg-nw-pcap-insights-lab"
+admin_username             = "azureuser"
+ssh_public_key             = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIReplaceWithYourPublicKey mike@lab"
+admin_source_cidr          = "203.0.113.10/32"
+vm_size                    = "Standard_B2s"
+capture_time_limit_seconds = 600
+capture_total_bytes        = 104857600
