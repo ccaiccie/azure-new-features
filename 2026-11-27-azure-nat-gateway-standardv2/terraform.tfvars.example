@@ -1,0 +1,11 @@
+resource_group_name     = "rg-natgw-v2-lab"
+location                = "eastus"
+prefix                  = "natv2lab"
+vnet_ipv4_cidr          = "10.40.0.0/16"
+vnet_ipv6_cidr          = "fd00:40::/48"
+subnet_ipv4_cidr        = "10.40.1.0/24"
+subnet_ipv6_cidr        = "fd00:40:1::/64"
+idle_timeout_in_minutes = 4
+vm_size                 = "Standard_B1s"
+admin_username          = "labadmin"
+ssh_public_key_path     = "~/.ssh/id_rsa.pub"

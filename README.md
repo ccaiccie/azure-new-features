@@ -42,3 +42,4 @@ Each video has its own folder. Copy `terraform.tfvars.example` to `terraform.tfv
 | [2026-11-26-azure-vpn-gateway-nat-ipsec](./2026-11-26-azure-vpn-gateway-nat-ipsec) | Azure VPN Gateway NAT and custom IPsec/IKE policy for overlapping CIDRs | Upload pending |
 | [2026-11-27-azure-network-watcher-packet-capture-insights](./2026-11-27-azure-network-watcher-packet-capture-insights) | Azure Network Watcher packet capture insights (preview): NWPacketCapture KQL tables, toolkit placement, and Terraform lab | Upload pending |
 | [2026-11-27-azure-apim-networking-v2](./2026-11-27-azure-apim-networking-v2) | Azure API Management networking v2: why VNet injection, Application Gateway, and Private Link (purpose-first explanation) | Upload pending |
+| [2026-11-27-azure-nat-gateway-standardv2](./2026-11-27-azure-nat-gateway-standardv2) | Azure NAT Gateway StandardV2: zone redundancy, IPv6, NAT64 with DNS64, flow logs and a Terraform lab | Upload pending |
