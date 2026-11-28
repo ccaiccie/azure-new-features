@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and set globally unique values before running terraform apply.
+# Do NOT commit terraform.tfvars or any secrets to version control.
+
+resource_group_name = "rg-apim-net-v2"
+location            = "eastus2"
+apim_name           = "apim-netlab-v2-1042" # Must be globally unique across Azure
+publisher_name      = "Network Technician Lab"
+publisher_email     = "admin@example.com"
+apim_sku_name       = "Developer_1"
+appgw_capacity      = 1
